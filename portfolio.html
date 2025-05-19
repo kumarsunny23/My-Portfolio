@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="icon" href="assets/potfolio.png">
+    <title> &#x0950; Sunny-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@1,402&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="sticy">
+        <div class="container-fluid">
+            <i class="fa-solid fa-user user"></i> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" id=""></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home" href="#">My portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://kumarsunny23.github.io/cp/">Certificate</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#project-grid" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            My Projects
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item"  href="assets/">Spotify</a></li>
+                            <li><a class="dropdown-item"  href="/sportify/">Studio</a></li>
+                            <li><a class="dropdown-item"  href="http://127.0.0.1:3000/free.html">Upcoming...</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-github"></i>&nbsp;&nbsp;GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/sunny-s91827s3645?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;Linkedin</a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="stars"></div>
+            <h2><span>&#x0950;</span></i> About Me</h2>
+            <div class="content">
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="assets/potfolio.png" alt="Profile Picture">
+                        <h1>
+                            <a href="#" class="typewrite"data-period="2000" data-type='[ "Hi, Im Sunny.", "I am Web Developer.", "I Love Design website.", "I Love to Develop.","I Love Coding &hearts;" ]'>
+                            <span class="wrap"></span>
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="assets/project1.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>A responsive Spotify website clone built with HTML and CSS.</p>
+                    <a class="dropdown-item"  href="http://127.0.0.1:3000/free.html"> view Spotify</a>
+                </div>
+                <div class="project-card">
+                    <img src="assets/project2.png" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>A portfolio website for a photographer using HTML, CSS.</p>
+                </div>
+                <div class="project-card">
+                    <img src="assets/project-3.png" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>This is my portfolio website, built with HTML and CSS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <h3>HTML & CSS</h3>
+                    <p>Advanced</p>
+                </div>
+                <div class="skill-item">
+                    <h3>JavaScript</h3>
+                    <p>Learner</p>
+                </div>
+                <div class="skill-item">
+                    <h3>React</h3>
+                    <p>Learner</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Node.js</h3>
+                    <p>Learner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2><i class="fa-regular fa-envelope" id="name"></i>&nbsp;Contact Me</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sunny Singh.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    <script src="app.js"></script>
+    
+</body>
+</html>
